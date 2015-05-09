@@ -1,7 +1,7 @@
 # LDAGibbsSampling
 This is a project witch implements topic model lda and uses lda in real application.
 ![image](https://github.com/fortianyou/LDAGibbsSampling/blob/master/lda.png)
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"> </script>
 - 令$K, V, D$分别为主题，词汇，文档个数
 - 对文档中的每个词已观测词$w_i=t$，$p(z_i=k|\overrightarrow{z}_{\neg i},\overrightarrow{w}_{i})\propto p(z_i=k,w_i=t|\overrightarrow{z}_{\neg i},\overrightarrow{w}_{\neg i})$
   - 每个$w_i$的主题$z_i$应该按照上述的分布来抽样，$i$表示词汇在文档中的位置。
@@ -16,4 +16,4 @@ $$p(z_i=k|\overrightarrow{z}_{\neg i},\overrightarrow{w}_{i}) \propto \hat{\thet
  - SAMPLE_LAG: 表示抽样的间隔，样本抽样应该在马氏链达到平稳之后才进行。也就是算法迭代次数超过BURN_IN之后。
  - $\alpha$: 生成文档主题分布 $\theta$ 的狄利克雷分布先验参数
  - $\beta$: 生成主题生成词分布 $\varphi$ 的狄利克雷分布先验参数
- </script>
+
