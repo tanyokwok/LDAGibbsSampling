@@ -1,0 +1,13 @@
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  1∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  124∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  202∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  288∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  364∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  444∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  525∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  604∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  685∫¡√Î
+[2015-05-08 17:34:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  768∫¡√Î

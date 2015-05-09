@@ -1,0 +1,310 @@
+[2015-05-09 09:43:07 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:43:07 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:43:07 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:43:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  1∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  113∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  190∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  267∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  343∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  417∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  495∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  575∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  654∫¡√Î
+[2015-05-09 09:43:08 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  730∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  1∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  118∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  195∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  275∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  350∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  424∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  497∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  572∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  648∫¡√Î
+[2015-05-09 09:45:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  720∫¡√Î
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  3∫¡√Î
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  135∫¡√Î
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  215∫¡√Î
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  295∫¡√Î
+[2015-05-09 09:45:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  373∫¡√Î
+[2015-05-09 09:45:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  454∫¡√Î
+[2015-05-09 09:45:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  532∫¡√Î
+[2015-05-09 09:45:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  608∫¡√Î
+[2015-05-09 09:45:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  682∫¡√Î
+[2015-05-09 09:45:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  756∫¡√Î
+[2015-05-09 09:46:47 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:46:47 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:46:47 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:46:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  1∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  122∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  199∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  275∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  349∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  425∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  519∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  609∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  692∫¡√Î
+[2015-05-09 09:46:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  774∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  1∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  114∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  192∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  266∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  342∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  416∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  491∫¡√Î
+[2015-05-09 09:48:15 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  567∫¡√Î
+[2015-05-09 09:48:16 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  643∫¡√Î
+[2015-05-09 09:48:16 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  719∫¡√Î
+[2015-05-09 09:48:42 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:48:42 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:48:42 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:48:42 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  2∫¡√Î
+[2015-05-09 09:48:42 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  109∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  187∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  265∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  340∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  414∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  491∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  567∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  646∫¡√Î
+[2015-05-09 09:48:43 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  722∫¡√Î
+[2015-05-09 09:48:48 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:48:48 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:48:48 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:48:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  0∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  119∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  200∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  275∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  351∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  428∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  504∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  579∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  652∫¡√Î
+[2015-05-09 09:48:49 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  726∫¡√Î
+[2015-05-09 09:49:04 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:49:04 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:49:04 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:49:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  2∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  120∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  199∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  275∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  349∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  425∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  501∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  582∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  662∫¡√Î
+[2015-05-09 09:49:05 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  745∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\test
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 115
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 18
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  1∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  116∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  192∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  268∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  348∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  424∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  522∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  599∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  675∫¡√Î
+[2015-05-09 09:50:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  749∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  60∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  108∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  156∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  206∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  254∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  303∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  353∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  401∫¡√Î
+[2015-05-09 09:50:07 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  454∫¡√Î
+[2015-05-09 09:52:28 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:32) - List all files in directory .\src\data\train
+[2015-05-09 09:52:28 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:95) - There total different word count is : 4594
+[2015-05-09 09:52:28 INFO ] [main] (cn.ac.ict.text.train.DocuVocaLoader:96) - There total KWN word count is : 1276
+[2015-05-09 09:52:28 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  37∫¡√Î
+[2015-05-09 09:52:35 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  6√Î381∫¡√Î
+[2015-05-09 09:52:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  12√Î630∫¡√Î
+[2015-05-09 09:52:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  18√Î923∫¡√Î
+[2015-05-09 09:52:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  25√Î214∫¡√Î
+[2015-05-09 09:53:00 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  31√Î532∫¡√Î
+[2015-05-09 09:53:06 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  37√Î812∫¡√Î
+[2015-05-09 09:53:12 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  44√Î75∫¡√Î
+[2015-05-09 09:53:19 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  50√Î372∫¡√Î
+[2015-05-09 09:53:25 INFO ] [main] (cn.ac.ict.lda.LDAGibbsSampler:141) - Running Time:  56√Î680∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  0∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  57∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  103∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  153∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  200∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  247∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  294∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  343∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  392∫¡√Î
+[2015-05-09 09:53:32 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  441∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  0∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  70∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  120∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  170∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  218∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  283∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  339∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  388∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  439∫¡√Î
+[2015-05-09 09:57:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  488∫¡√Î
+[2015-05-09 09:58:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  2∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  51∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  80∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  110∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  141∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  171∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  203∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  232∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  270∫¡√Î
+[2015-05-09 09:58:11 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  306∫¡√Î
+[2015-05-09 09:58:21 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 09:58:21 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  100∫¡√Î
+[2015-05-09 09:58:21 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  169∫¡√Î
+[2015-05-09 09:58:22 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  240∫¡√Î
+[2015-05-09 09:58:22 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  320∫¡√Î
+[2015-05-09 09:58:22 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  389∫¡√Î
+[2015-05-09 09:58:22 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  459∫¡√Î
+[2015-05-09 09:58:22 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  530∫¡√Î
+[2015-05-09 09:58:22 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  610∫¡√Î
+[2015-05-09 09:58:22 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  683∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  3∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  87∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  135∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  183∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  232∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  287∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  345∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  396∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  448∫¡√Î
+[2015-05-09 09:59:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  497∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  50∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  82∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  113∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  143∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  173∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  206∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  236∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  267∫¡√Î
+[2015-05-09 10:00:27 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  297∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  53∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  77∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  104∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  129∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  156∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  182∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  208∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  234∫¡√Î
+[2015-05-09 10:00:52 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  262∫¡√Î
+[2015-05-09 10:00:58 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:00:58 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  122∫¡√Î
+[2015-05-09 10:00:58 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  220∫¡√Î
+[2015-05-09 10:00:59 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  338∫¡√Î
+[2015-05-09 10:00:59 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  442∫¡√Î
+[2015-05-09 10:00:59 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  544∫¡√Î
+[2015-05-09 10:00:59 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  662∫¡√Î
+[2015-05-09 10:00:59 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  758∫¡√Î
+[2015-05-09 10:00:59 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  850∫¡√Î
+[2015-05-09 10:00:59 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  943∫¡√Î
+[2015-05-09 10:01:09 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  2∫¡√Î
+[2015-05-09 10:01:09 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  103∫¡√Î
+[2015-05-09 10:01:09 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  182∫¡√Î
+[2015-05-09 10:01:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  262∫¡√Î
+[2015-05-09 10:01:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  346∫¡√Î
+[2015-05-09 10:01:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  424∫¡√Î
+[2015-05-09 10:01:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  504∫¡√Î
+[2015-05-09 10:01:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  593∫¡√Î
+[2015-05-09 10:01:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  677∫¡√Î
+[2015-05-09 10:01:10 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  754∫¡√Î
+[2015-05-09 10:01:17 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:01:17 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  50∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  80∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  112∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  143∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  172∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  205∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  236∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  277∫¡√Î
+[2015-05-09 10:01:18 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  314∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  56∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  85∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  117∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  148∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  177∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  210∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  241∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  274∫¡√Î
+[2015-05-09 10:02:47 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  308∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  0∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  50∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  79∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  110∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  145∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  177∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  209∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  240∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  272∫¡√Î
+[2015-05-09 10:03:41 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  302∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  1∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  50∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  82∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  116∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  149∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  179∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  223∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  257∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  294∫¡√Î
+[2015-05-09 10:08:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:153) - Running Time:  329∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  0∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  51∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  82∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  116∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  152∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  184∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  219∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  252∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  288∫¡√Î
+[2015-05-09 10:11:54 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  326∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  69∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  124∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  175∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  226∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  287∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  344∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  396∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  448∫¡√Î
+[2015-05-09 10:13:04 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  499∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  69∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  125∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  182∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  237∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  293∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  352∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  402∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  456∫¡√Î
+[2015-05-09 10:14:48 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  507∫¡√Î
+[2015-05-09 10:15:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  1∫¡√Î
+[2015-05-09 10:15:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  66∫¡√Î
+[2015-05-09 10:15:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  121∫¡√Î
+[2015-05-09 10:15:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  174∫¡√Î
+[2015-05-09 10:15:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  227∫¡√Î
+[2015-05-09 10:15:01 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  282∫¡√Î
+[2015-05-09 10:15:02 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  342∫¡√Î
+[2015-05-09 10:15:02 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  398∫¡√Î
+[2015-05-09 10:15:02 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  455∫¡√Î
+[2015-05-09 10:15:02 INFO ] [main] (cn.ac.ict.lda.LDAGibbsInference:148) - Running Time:  505∫¡√Î
