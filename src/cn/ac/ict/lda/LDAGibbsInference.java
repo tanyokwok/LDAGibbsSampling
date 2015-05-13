@@ -15,7 +15,7 @@ public class LDAGibbsInference {
 		this.doc = doc;
 	}
 	
-	public static double [][] loadPhi(String filename){
+	public static double [][] loadProba(String filename){
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new InputStreamReader(new FileInputStream(filename),"utf-8"));
@@ -24,16 +24,16 @@ public class LDAGibbsInference {
 			String arr[] = line.split(" ");
 			int V = Integer.parseInt(arr[0]);
 			int K = Integer.parseInt(arr[1]);
-			double phi[][] = new double[K][V];
+			double proba[][] = new double[K][V];
 			for(int w = 0; w < V && (line = br.readLine() ) != null; ++ w ){
 				arr = line.split(" ");
 				for( int k = 0; k < K; ++ k ){
-					phi[k][w] = Double.parseDouble(arr[k]);
+					proba[k][w] = Double.parseDouble(arr[k]);
 				}
 			}
 			
 			br.close();
-			return phi;
+			return proba;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -49,12 +49,12 @@ public class LDAGibbsInference {
 	 * @param iteration The total iteration number
 	 * @param sample_gap The gap of samples
 	 */
-	public void config(int k,int burn_in,int iteration,int sample_gap){
+	public void config(int k,int burn_in,int iteration,int sample_gap,int time_gap){
 		this.BURN_IN = burn_in;
 		this.ITERATION = iteration;
 		this.SAMPLE_GAP = sample_gap;
 		this.K = k;
-		
+		this.TIME_GAP = time_gap;
 		nzd = new int[K];
 		pzdsum = new double[K];
 		
@@ -91,7 +91,7 @@ public class LDAGibbsInference {
 		}
 		
 		double r = rand.nextDouble()*p[K-1];
-		for( int k = 0; k < K; ++ k ){
+		for( int k = 0; k < K-1; ++ k ){
 			if( r < p[k] ){
 				z = k;break;
 			}
@@ -198,6 +198,6 @@ public class LDAGibbsInference {
 	
 	protected int doc[];
 	
-	protected int TIME_GAP = 1000;
+	protected int TIME_GAP = 10;
 	protected Random rand = new Random();
 }

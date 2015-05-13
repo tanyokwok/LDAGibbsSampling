@@ -22,23 +22,24 @@ public class LDAGibbsSampler {
 	}
 	
 	/**
-	 * dump phi to file
+	 * dump probability to file
 	 * @param filename The dump file name.
-	 * @param phi A K*V matrix denotes parameter phis. phi[k][w] = prob( w | zk)
+	 * @param proba A K*V matrix denotes parameter pzw or pwz. 
+	 * 	proba[k][w] = prob( w | zk) or proba[k][w] = prob(zk|w)
 	 */
-	public static void dumpPhi(String filename, double [][]phi){
+	public static void dumpProba(String filename, double [][]proba){
 		BufferedWriter bw = null;
 		try {
 			bw = new BufferedWriter( new OutputStreamWriter(new FileOutputStream(filename),"utf-8" ) );
-			int K = phi.length;
+			int K = proba.length;
 			int V = 0;
-			if( K > 0 ) V = phi[0].length;
+			if( K > 0 ) V = proba[0].length;
 			bw.append(V +" " + K );
 			bw.newLine();
 			for( int w = 0; w < V; ++ w ){
-				bw.append(""+phi[0][w]);
+				bw.append(""+proba[0][w]);
 				for( int k = 1; k < K; ++ k ){
-					bw.append(" " + phi[k][w]);
+					bw.append(" " + proba[k][w]);
 				}
 				bw.newLine();
 			}
@@ -50,6 +51,7 @@ public class LDAGibbsSampler {
 		}
 		
 	}
+
 	/**
 	 * Configure the lda gibbs sampler
 	 * @param k Topic number
@@ -57,19 +59,23 @@ public class LDAGibbsSampler {
 	 * @param iteration The total iteration number
 	 * @param sample_gap The gap of samples
 	 */
-	public void config(int k,int burn_in,int iteration,int sample_gap){
+	public void config(int k,int burn_in,int iteration,int sample_gap,int time_gap){
 		this.BURN_IN = burn_in;
 		this.ITERATION = iteration;
 		this.SAMPLE_GAP = sample_gap;
 		this.K = k;
+		this.TIME_GAP = time_gap;
 
 		nzw = new int[K][V];
 		nzd = new int[K][D];
 		cnz = new int[K];
 		cnd = new int[D];
+		cnw = new int[V];
 		
 		pzdsum = new double[K][D];
 		pwzsum = new double[V][K];
+		pzwsum = new double[K][V];
+		
 		numstat = 0;
 	}
 	
@@ -101,7 +107,7 @@ public class LDAGibbsSampler {
 		}
 //		double r = Math.random()*p[K-1];
 		double r = rand.nextDouble()*p[K-1];
-		for( z = 0; z < K; ++ z ){
+		for( z = 0; z < K - 1; ++ z ){
 			if( r < p[z] ){
 				break;
 			}
@@ -163,6 +169,13 @@ public class LDAGibbsSampler {
 				pwzsum[w][k] += ( nzw[k][w] + beta)/( cnz[k] + V*beta );
 			}
 		}
+		
+		for( int w = 0; w < V; ++ w){
+			for( int k = 0; k < K; ++ k){
+				/* p(z|w) = ( n(z,w) + beta )/( n(w) + K*beta )*/
+				pzwsum[k][w] += ( nzw[k][w] + beta )/( cnw[w] + K*beta );
+			}
+		}
 		numstat ++;
 	}
 	
@@ -195,6 +208,20 @@ public class LDAGibbsSampler {
 	}
 	
 	/**
+	 * normalize the probability of p(topic|word)
+	 * @return a matrix of K*V represents pzw, pzw[ topic ][ word ] = p(topic|word)
+	 */
+	public double[][] normalizePZW(){
+		double [][] pzw = new double[K][V];
+		for( int k = 0; k < K; ++ k ){
+			for(int w = 0; w < V; ++ w ){
+				pzw[k][w] = pzwsum[k][w]/numstat;
+			}
+		}
+		return pzw;
+	}
+	
+	/**
 	 * count the number of each counting variable.
 	 */
 	public void doTopicCounting(){
@@ -204,6 +231,8 @@ public class LDAGibbsSampler {
 				int w = docs[i][j];
 				nzw[topics[i][j]][w] ++;
 				nzd[topics[i][j]][i] ++;
+				//count word frequent
+				cnw[w]++;
 			}
 		}
 		
@@ -219,8 +248,8 @@ public class LDAGibbsSampler {
 		for( int m = 0; m < D; ++ m ){
 			/*cumulative sum of nzd[k][m] on k*/
 			cnd[m] = docs[m].length;
-//			System.out.println("cummulative nzd[*]["+m+"] = " + cnd[m]);
 		}
+		
 	}
 	
 	/**
@@ -251,7 +280,7 @@ public class LDAGibbsSampler {
         int K = 2;
         int V = 7;
         LDAGibbsSampler lda = new LDAGibbsSampler(documents,V);
-        lda.config(K,2000,10000,10);
+        lda.config(K,2000,10000,10,1000);
         
         lda.gibbsSample(2, .5);
         //输出模型参数，论文中式 （81）与（82）  
@@ -314,6 +343,10 @@ public class LDAGibbsSampler {
 	 * cnd[m]: cumulative sum of nzd on topic, the total word count of doc
 	 */
 	protected int cnd[];
+	/**
+	 * cnw count of each word in corpus
+	 */
+	protected int cnw[];
 
 	
 	/**
@@ -324,11 +357,15 @@ public class LDAGibbsSampler {
 	 * the sum probability of p(word|topic) of all sample
 	 */
 	protected double pwzsum[][];
+	/**
+	 * the sum probability of p(topic|word) of all sample
+	 */
+	protected double pzwsum[][];
 	
 	protected int numstat;
 	
 	protected int docs[][];
 
-	protected int TIME_GAP = 1000;
+	protected int TIME_GAP = 10;
 	protected Random rand = new Random();
 }
