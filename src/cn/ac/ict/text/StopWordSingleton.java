@@ -10,16 +10,22 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * StopWordSingleton is a singleton which load stopwords and provide methond to filter stopwords.
+ * If you want to use it please load stopwords before using any methods.
+ * @author GuoTianyou
+ *
+ */
 public class StopWordSingleton {
 	public static StopWordSingleton singleton = new StopWordSingleton();
 	private StopWordSingleton(){
 //		File file = new File("");
 //		System.out.println(file.getAbsolutePath());
 		stopwords = new HashSet<String>();
-		loadStopWords("./src/cn/ac/ict/text/stopword.txt");
+//		loadStopWords("./src/cn/ac/ict/text/stopword.txt");
 	}
 	
-	private void loadStopWords(String file){
+	public void loadStopWords(String file){
 		
 		BufferedReader br = null;
 		try {
@@ -43,6 +49,7 @@ public class StopWordSingleton {
 	}
 	
 	public List<String> filteStopWords(List<String> word_list){
+		
 		List<String> nword_list = new ArrayList<String>();
 		for( String word: word_list){
 			if( !stopwords.contains(word) ){
