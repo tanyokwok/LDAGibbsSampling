@@ -1,6 +1,7 @@
 package cn.ac.ict.text.inference;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -14,6 +15,37 @@ import cn.ac.ict.text.TextDocuReaderSingleton;
 import cn.ac.ict.text.Vocabulary;
 
 public class DocumentLoader {
+	private static Logger logger = Logger.getLogger(DocumentLoader.class);
+	public static  File[] getFileList(String dir){
+		
+		File dir_file = new File(dir);
+		if( !dir_file.exists() ){
+			logger.warn(dir_file + " does not exist.");
+			return null;
+		}
+		else if( !dir_file.isDirectory() ){
+			logger.warn(dir_file + " is not a directory.");
+			return null;
+		}
+		
+		File[] file_list = dir_file.listFiles();
+		logger.info("List all files in directory " + dir_file );
+		return file_list;
+	}
+	
+	public static List<int[]> loadDocuments(String dirname,Vocabulary voca){
+		File [] file_list = getFileList(dirname);
+		if( file_list == null )
+			return null;
+		
+		List<int[]> list = new ArrayList<int[]>();
+		for( File f: file_list ){
+			list.add(loadDocument(f.getAbsolutePath(),voca));
+		}
+		
+		return list;
+	}
+	
 	
 	public static int [] loadDocument(String filename,Vocabulary voca){
 		
